@@ -90,3 +90,27 @@ Gloves, hat and shirt had the highest average sales (8) while jacket had the low
 We used EXCEL Functions to calculate total revenue per region and the function lines of code are displayed below:
 
 ```MICROSOFT EXCEL
+= SUMIF($D$2:$D$9922,"East",$H$2:$H$9922)
+
+= SUMIF($D$2:$D$9922,"North",$H$2:$H$9922)
+
+=SUMIF($D$2:$D$9922,"South",$H$2:$H$9922)
+
+=SUMIF($D$2:$D$9922,"West",$H$2:$H$9922)
+```
+
+The results are displayed in the table below
+
+The highest revenue recorded from this sale analysis is from South Region with #927,820 while the lowest revenue was seen at West region with 300,345.
+This implies that the business is functioning well at South region than any other region and it is recommended that  the management of the sales firm focus on what to do as to increase sales in other regions too.
+
+------------
+
+### Using Microsoft SQL for data analysis
+
+- To calculate the total sales for each product category
+```SQL
+select product, sum(Quantity) as 'Total_Sales' from [dbo].[SalesData]
+		group by product
+		order by 2 desc
+```
