@@ -1,4 +1,4 @@
-# Sales Performance Analysis for a Retail Store
+![Screenshot_20241011-132711](https://github.com/user-attachments/assets/f9663e47-2ba7-44c0-baa6-4afaedbee49b)# Sales Performance Analysis for a Retail Store
 
 ## Project Aim
 
@@ -187,3 +187,49 @@ select OrderMonth, sum(Quantity) as MonthlySales from [dbo].[Monthly_Sales_Data 
 
 -------
 
+- To find the top 5 customers by total purchase amount
+
+```SQL
+select top 5 Customer_Id, sum(Revenue) as 'Total_Purchase_Amount' from [dbo].[SalesData]
+		group by Customer_Id
+		order by 2 desc
+```
+
+
+add screen 1.11
+
+The customers with the highest total purchase amount are Cus1372, Cus1385, Cus1395, Cus1207 and Cus1075 all with equal amount of total purchase of 4,235.
+
+-------------
+
+
+- To calculate the percentage of total sales contributed by each region
+select region
+```SQL
+	sum(Quantity) as Total_Sales,
+	ROUND(
+	sum(Quantity) * 100.0 / (select sum(Quantity) from [dbo].[SalesData]),
+	2
+	) as Percentage_Sales
+	from [dbo].[SalesData]
+	group by region
+	WITH ROLLUP;
+```
+
+Add screen 1.12
+
+The highest percentage (35.49%) of the total sales came from South region while the lowest percentage (16.65%) of total sales was observed from the West region. ( See fig 9, the visual dashboard). 
+
+-------------
+
+- To identify products with no sales in the last quarter
+```SQL
+select product from [dbo].[Monthly_Sales_Data ]
+	where OrderMonth in ('July','August','September') and Quantity = '0'
+	group by product
+```
+
+add screen 1.13
+There was no product identified with no sales in the last quarter.
+
+## Data Visualization with the use of MS POWER BI
