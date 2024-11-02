@@ -23,7 +23,7 @@ We recommend that the company look keenly into the West region and make some adj
 ## * Summarization of total sales per product
 This was done with the use of Microsoft EXCEL and the result is displayed below.
 
-![Alt text](Sales 1.1~2.png)
+![Alt text] (Sales 1.1~2.png)
 
 The product with the highest total sales is hat while the product with the lowest total sales is jacket. 23% of the total sales came from hat.
 We recommend that more hats be supplied to the firm to boost the business.
