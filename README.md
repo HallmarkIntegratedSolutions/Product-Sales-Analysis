@@ -145,11 +145,45 @@ All the regions have almost equal frequency of sales transaction though the high
 
 ------
 
-To find the highest selling product by total sales value
+- To find the highest selling product by total sales value
+
+```SQL
 select top 1 product, sum(Quantity) as 'QuantityTotal' from [dbo].[SalesData]
 		group by product
-		
+```
 
 
-Add scree 1.8
 The highest selling product by total sales value is hat with 15929 total sales. 
+
+-----
+
+- To calculate total revenue per product
+
+``` SQL
+select product, sum(Revenue) as 'Total_Revenue' from [dbo].[SalesData]
+		group by product
+		order by 2 desc
+```
+
+
+The product with the highest revenue (613,380) is shoe while the product with the lowest revenue is socks with #180,785. (See fig 9, the visual dashboard) 
+
+--------
+
+
+- To calculate monthly sales for the current year
+Firstly, we extract month and year from the order date separately to give us a new dataset 
+
+```SQL
+select OrderMonth, sum(Quantity) as MonthlySales from [dbo].[Monthly_Sales_Data ]
+	where Orderyear = 2024
+	group by OrderMonth
+```
+
+
+- At year 2024, there was an increase in sales from the month of January to March but a sharp decrease in sales occured between April and May. 
+- Total sales experienced a rapid increase during the month of June but it decreased at July. Thereafter, total sales increased at the month of August. 
+- The highest total sales (5,928) was recorded at the month of June while the lowest sales (1488) was observed at the month of May. 
+
+-------
+
