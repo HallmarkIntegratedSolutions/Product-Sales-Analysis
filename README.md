@@ -13,17 +13,16 @@ The aim of this analysis is to  analyse the sales performance of a retail store 
 4. GitHub for Report Documentation
 ----------
 
-## * Summarization of total sales per region
+### * Summarization of total sales per region
 This was done with the use of Microsoft EXCEL and the result is displayed 
 
 The highest total sales (24,298) was recorded at South Region while the lowest total sales was recorded at West Region. West Region had the lowest sales (11,400) with reasons probably low advertisement, staff attitude etc.
 We recommend that the company look keenly into the West region and make some adjustments so as to boost sales in that region.
 
 -----------
-## * Summarization of total sales per product
-This was done with the use of Microsoft EXCEL and the result is displayed below
+### * Summarization of total sales per product
+This was done with the use of Microsoft EXCEL and the result is displayed bel
 
-![Alt text](Sales 1.1~2.png)
 
 The product with the highest total sales is hat while the product with the lowest total sales is jacket. 23% of the total sales came from hat.
 We recommend that more hats be supplied to the firm to boost the business.
@@ -31,7 +30,7 @@ Jacket had the lowest quantity sold with 8% sales due to reasons probably choice
 The management of the company might take a survey to get interested jackets brand from society and introduce such jackets to the company.
 
 
-## * Summarization of total sales and total revenue per product at a glance
+### * Summarization of total sales and total revenue per product at a glance
 This was done with the use of Microsoft EXCEL and the result is displayed below.
 
 
@@ -41,7 +40,7 @@ The product with the highest revenue (613,380) is shoe which has the second larg
 
 --------
 
-## * Summarization of total sales per region per product at a glance
+### * Summarization of total sales per region per product at a glance
 This was done with the use of Microsoft EXCEL and the result is displayed below.
 
 
@@ -61,16 +60,33 @@ It is interesting to note that the product with the highest sales in one region 
 
 -------
 
-## Using EXCEL Functions to calculate Average sales per product
+### Using EXCEL Functions to calculate Average sales per product
 
 We used EXCEL Function (AVERAGEIF) to calculate the average sales per product.
 The function codes are displayed below:
 
 ```MICROSOFT EXCEL
 =AVERAGEIF($C$2:$C$9922,"Gloves",$F$2:$F$9922)
+
 =AVERAGEIF($C$2:$C$9922,"Hat",$F$2:$F$9922)
+
 =AVERAGEIF($C$2:$C$9922,"Jacket",$F$2:$F$9922)
+
 =AVERAGEIF($C$2:$C$9922,"Shirt",$F$2:$F$9922)
+
 =AVERAGEIF($C$2:$C$9922,"Shoes",$F$2:$F$9922)
+
 =AVERAGEIF($C$2:$C$9922,"Socks",$F$2:$F$9922)
 ```
+
+The results are displayed in the table below
+
+
+Gloves, hat and shirt had the highest average sales (8) while jacket had the lowest average sales (4). 
+
+-------
+
+### Using EXCEL Functions to calculate total revenue per region
+We used EXCEL Functions to calculate total revenue per region and the function lines of code are displayed below:
+
+```MICROSOFT EXCEL
