@@ -66,11 +66,11 @@ It is interesting to note that the product with the highest sales in one region 
 We used EXCEL Function (AVERAGEIF) to calculate the average sales per product.
 The function codes are displayed below:
 
-`EXCEL`
-
+```MICROSOFT EXCEL
 =AVERAGEIF($C$2:$C$9922,"Gloves",$F$2:$F$9922)
 =AVERAGEIF($C$2:$C$9922,"Hat",$F$2:$F$9922)
 =AVERAGEIF($C$2:$C$9922,"Jacket",$F$2:$F$9922)
 =AVERAGEIF($C$2:$C$9922,"Shirt",$F$2:$F$9922)
 =AVERAGEIF($C$2:$C$9922,"Shoes",$F$2:$F$9922)
 =AVERAGEIF($C$2:$C$9922,"Socks",$F$2:$F$9922)
+```
