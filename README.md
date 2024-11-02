@@ -2,7 +2,7 @@
 
 ## Project Aim
 
-The aim of this analysis is to  analyse the sales performance of a retail store and touncover key insights such as top-selling products, regional performance, monthly sales trends and other important findings. 
+The aim of this analysis is to  analyse the sales performance of a retail store and to uncover key insights such as top-selling products, regional performance, monthly sales trends and other important findings. 
 
 -----------
 
@@ -23,7 +23,7 @@ We recommend that the company look keenly into the West region and make some adj
 ## * Summarization of total sales per product
 This was done with the use of Microsoft EXCEL and the result is displayed below
 
-![Alt text](Sales1.1~2.png)
+![Alt text](Sales 1.1~2.png)
 
 The product with the highest total sales is hat while the product with the lowest total sales is jacket. 23% of the total sales came from hat.
 We recommend that more hats be supplied to the firm to boost the business.
@@ -61,4 +61,16 @@ It is interesting to note that the product with the highest sales in one region 
 
 -------
 
+## Using EXCEL Functions to calculate Average sales per product
 
+We used EXCEL Function (AVERAGEIF) to calculate the average sales per product.
+The function codes are displayed below:
+
+`EXCEL`
+
+=AVERAGEIF($C$2:$C$9922,"Gloves",$F$2:$F$9922)
+=AVERAGEIF($C$2:$C$9922,"Hat",$F$2:$F$9922)
+=AVERAGEIF($C$2:$C$9922,"Jacket",$F$2:$F$9922)
+=AVERAGEIF($C$2:$C$9922,"Shirt",$F$2:$F$9922)
+=AVERAGEIF($C$2:$C$9922,"Shoes",$F$2:$F$9922)
+=AVERAGEIF($C$2:$C$9922,"Socks",$F$2:$F$9922)
