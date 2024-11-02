@@ -13,7 +13,7 @@ The aim of this analysis is to  analyse the sales performance of a retail store 
 4. GitHub for Report Documentation
 ----------
 
-## * Summarization of the total sales per region
+## * Summarization of total sales per region
 This was done with the use of Microsoft EXCEL and the result is displayed below.
 
 
@@ -21,7 +21,7 @@ The highest total sales (24,298) was recorded at South Region while the lowest t
 We recommend that the company look keenly into the West region and make some adjustments so as to boost sales in that region.
 
 -----------
-## * Summarization of the total sales per product
+## * Summarization of total sales per product
 This was done with the use of Microsoft EXCEL and the result is displayed below.
 
 
@@ -32,4 +32,31 @@ Jacket had the lowest quantity sold with 8% sales due to reasons probably choice
 The management of the company might take a survey to get interested jackets brand from society and introduce such jackets to the company.
 
 
+## * Summarization of total sales and total revenue per product at a glance
+This was done with the use of Microsoft EXCEL and the result is displayed below.
 
+
+
+Though hat has the highest sales (15,929), it is not the product with the highest revenue. 
+The product with the highest revenue (613,380) is shoe which has the second largest sales. 
+
+--------
+
+## * Summarization of total sales per region per product at a glance
+This was done with the use of Microsoft EXCEL and the result is displayed below.
+
+
+
+
+At South region, hat and jacket were not available for sale.
+At East region, gloves and socks were not available for sale.
+At North Region, shoes, gloves and socks were not available for sale.
+At West Region, shirt and jacket were not available for sale.
+
+At South region, shoes had the highest sale of 9,930 while socks had the lowest sale of 4,464.
+At East region, hat had the highest sale of 8,871 while shoes had the lowest sale of 2,480.
+At North Region, shirt had the highest sale of 6,448 while jacket  had the lowest sale of 2,482.
+At West Region, hat had the highest sale of 3,486 while shoes had the lowest sale of 1,992.
+It is interesting to note that the product with the highest sales in one region happen to be the product with the lowest sale in another region. For exampe, shoes had the highest sales at South region but it had the lowest sale at East region.
+
+-------
