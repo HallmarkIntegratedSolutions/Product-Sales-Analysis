@@ -13,5 +13,12 @@ The aim of this analysis is to  analyse the sales performance of a retail store 
 4. GitHub for Report Documentation
 ----------
 
-## -To summarize the total sales per region
+- To summarize the total sales per region
+
+
+The highest total sales (24,298) was recorded at South Region while the lowest total sales was recorded at West Region. West Region had the lowest sales (11,400) with reasons probably low advertisement, staff attitude etc.
+We recommend that the company look keenly into the West region and make some adjustments so as to boost sales in that region.
+
+-----------
+
 
