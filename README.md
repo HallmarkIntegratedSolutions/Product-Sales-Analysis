@@ -13,4 +13,5 @@ The aim of this analysis is to  analyse the sales performance of a retail store 
 4. GitHub for Report Documentation
 ----------
 
-## - To summarize the total sales per region
+## -To summarize the total sales per region
+
