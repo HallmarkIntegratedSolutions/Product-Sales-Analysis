@@ -1,4 +1,4 @@
-![Screenshot_20241011-132711](https://github.com/user-attachments/assets/f9663e47-2ba7-44c0-baa6-4afaedbee49b)# Sales Performance Analysis for a Retail Store
+# Sales Performance Analysis for a Retail Store
 
 ## Project Aim
 
@@ -13,10 +13,12 @@ The aim of this analysis is to  analyse the sales performance of a retail store 
 4. GitHub for Report Documentation
 ----------
 
-## Data Analysis
+## Data Summarization with MICROSOFT EXCEL
 
-### *Summarization of total sales per region
-This was done with the use of Microsoft EXCEL and the result is displayed 
+#### Summarization of total sales per region
+This was done with the use of Microsoft EXCEL and the result is displayed below
+
+![Sales 1 1~2](https://github.com/user-attachments/assets/07b1077e-a95e-483e-b26f-78ca02af060e)
 
 The highest total sales (24,298) was recorded at South Region while the lowest total sales was recorded at West Region. West Region had the lowest sales (11,400) with reasons probably low advertisement, staff attitude etc.
 
@@ -24,7 +26,7 @@ We recommend that the company look keenly into the West region and make some adj
 
 -----------
 
-### *Summarization of total sales per product
+#### Summarization of total sales per product
 This was done with the use of Microsoft EXCEL and the result is displayed bel
 
 
