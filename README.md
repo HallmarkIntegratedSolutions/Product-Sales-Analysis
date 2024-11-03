@@ -1,5 +1,14 @@
 # Sales Performance Analysis for a Retail Store
 
+[Project Aim](#Project-Aim)
+[Tools Used](#Tools-Used)
+[Data Summarization with MS EXCEL](#Data-Summarization-with-MS-EXCEL)
+[Data Analysis with MS EXCEL](#Data-Analysis-with-MS-EXCEL)
+[Data Analysis with SQL](#Data-Analyis-with-SQL)
+[Data Visualization with POWER BI](#Data-Visualization-with-POWER-BI)
+[Conclusion](#Conclusion)
+
+
 ## Project Aim
 
 The aim of this analysis is to  analyse the sales performance of a retail store and to uncover key insights such as top-selling products, regional performance, monthly sales trends and other important findings. 
@@ -13,7 +22,7 @@ The aim of this analysis is to  analyse the sales performance of a retail store 
 4. GitHub for Report Documentation
 ----------
 
-## Data Summarization with MICROSOFT EXCEL
+## Data Summarization with MS EXCEL
 
 #### Summarization of total sales per region
 This was done with the use of Microsoft EXCEL and the result is displayed below
@@ -124,7 +133,7 @@ This implies that the business is functioning well at South region than any othe
 
 ------------
 
-## Using Microsoft SQL for data analysis
+## Data Analysis with SQL
 
 - To calculate the total sales for each product category
 ```SQL
@@ -259,7 +268,7 @@ There was no product identified with no sales in the last quarter.
 ------------
 
 
-## Data Visualization with the use of MS POWER BI
+## Data Visualization with POWER BI
 
 ![Sales 1 14~2](https://github.com/user-attachments/assets/436f1322-4804-46ff-8de0-b05f648ad824)
 
@@ -346,6 +355,7 @@ Approximately 56% of socks sales was from South Region, approximately 17% was fr
 
 Socks sale was recorded at only two months as the low sale was recorded at the month of April and it thereafter increased at October. 
 
+------------
 
 ## Conclusion
 The sales performance of the retail store store has been analysed thoroughly and necessary actions can be done based on the findings in this report so as to boost sales in the retail store. 
