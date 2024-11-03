@@ -1,12 +1,19 @@
 # Sales Performance Analysis for a Retail Store
 
 [Project Aim](#Project-Aim)
+
 [Tools Used](#Tools-Used)
+
 [Data Summarization with MS EXCEL](#Data-Summarization-with-MS-EXCEL)
+
 [Data Analysis with MS EXCEL](#Data-Analysis-with-MS-EXCEL)
+
 [Data Analysis with SQL](#Data-Analyis-with-SQL)
+
 [Data Visualization with POWER BI](#Data-Visualization-with-POWER-BI)
+
 [Conclusion](#Conclusion)
+
 
 
 ## Project Aim
@@ -29,6 +36,8 @@ This was done with the use of Microsoft EXCEL and the result is displayed below
 
 ![Sales 1 1~2](https://github.com/user-attachments/assets/07b1077e-a95e-483e-b26f-78ca02af060e)
 
+*fig 1: total sales per region*
+
 The highest total sales (24,298) was recorded at South Region while the lowest total sales was recorded at West Region. West Region had the lowest sales (11,400) with reasons probably low advertisement, staff attitude etc.
 
 The recommendation is that the company look keenly into the West region and make some adjustments so as to boost sales in that region.
@@ -39,6 +48,8 @@ The recommendation is that the company look keenly into the West region and make
 This was done with the use of Microsoft EXCEL and the result is displayed below
 
 ![Screenshot (84)~2](https://github.com/user-attachments/assets/22d31aa0-13aa-4b46-97dd-93940da058c9)
+
+*fig 2: total sales per profuct*
 
 The product with the highest total sales is hat while the product with the lowest total sales is jacket. 23% of the total sales came from hat.
 
@@ -54,6 +65,7 @@ This was done with the use of Microsoft EXCEL and the result is displayed below.
 
 ![Sales 1 3~2](https://github.com/user-attachments/assets/b4d6cd1d-ea44-4e7a-8d29-0409e974f7c4)
 
+*fig 3: total sales and total revenue*
 
 Though hat has the highest sales (15,929), it is not the product with the highest revenue. 
 The product with the highest revenue (613,380) is shoe which has the second largest sales. 
@@ -66,6 +78,7 @@ This was done with the use of Microsoft EXCEL and the result is displayed below.
 
 ![Screenshot (83)~2](https://github.com/user-attachments/assets/d25e019b-9453-4769-9928-0e73e42ea6db)
 
+*fig 4: total sales per region per product*
 
 - At South region, hat and jacket were not available for sale.
 - At East region, gloves and socks were not available for sale.
@@ -106,6 +119,8 @@ The results are displayed in the table below
 
 ![Sales 1 4~2](https://github.com/user-attachments/assets/8cfd1db4-c5b8-4670-afa0-719ea4e88074)
 
+*fig 5: Average sales per product*
+
 Gloves, hat and shirt had the highest average sales (8) while jacket had the lowest average sales (4). 
 
 -------
@@ -127,6 +142,7 @@ The results are displayed in the table below
 
 ![Sales 1 5~2](https://github.com/user-attachments/assets/76eea254-15ec-4ad1-86ba-08410fecd3dd)
 
+*fig 6: total revenue per region*
 
 The highest revenue recorded from this sale analysis is from South Region with #927,820 while the lowest revenue was seen at West region with 300,345.
 This implies that the business is functioning well at South region than any other region and it is recommended that  the management of the sales firm focus on what to do as to increase sales in other regions too.
@@ -272,22 +288,24 @@ There was no product identified with no sales in the last quarter.
 
 ![Sales 1 14~2](https://github.com/user-attachments/assets/436f1322-4804-46ff-8de0-b05f648ad824)
 
-Fig 9 reveal that the total frequency of customers is 9,921,  total quantity sold is 68,461 and the total revenue is 2,101,090.
+*fig 7: Overall Sales Visual*
 
-As seen in the line chart in fig.9, the higher total sales was observed at the month of February while the least sales was recorded at December.
+Fig 7 above reveals that the total frequency of customers is 9,921,  total quantity sold is 68,461 and the total revenue is 2,101,090.
+
+As seen in the line chart in fig.7, the higher total sales was observed at the month of February while the least sales was recorded at December.
 
 -------------
 
-Product was used as slicer for the visual report.
------
+#### Product was used as slicer for the visual report.
+
 
 - For Gloves,
 
 ![Sales 1 15~2](https://github.com/user-attachments/assets/8bd6c2dc-b647-4ab7-a262-90f2edcc176f)
 
+*fig 8: Gloves' Sales Analysis*
 
-
-Fig 10 reveals that the total frequency of customers is 1,484,  total quantity of gloves  sold is 12,369 and the total revenue is 296,900.
+Fig 8 reveals that the total frequency of customers is 1,484,  total quantity of gloves  sold is 12,369 and the total revenue is 296,900.
 
 Approximately 80% of gloves sales was from South Region while approximately 20% was from West region.
 Gloves sale was recorded at only two months with a decrease as the higher sale was at the month of June and it thereafter decreased at December.
@@ -298,8 +316,9 @@ Gloves sale was recorded at only two months with a decrease as the higher sale w
 
 ![Sales 1 16~2](https://github.com/user-attachments/assets/56955187-8890-4876-9d68-85dacda356be)
 
+*fig 9: Shirt Sales Analysis*
 
-Fig 11 reveals that the total frequency of customers is 1,487,  total quantity of shirts sold is 12,388 and the total revenue is 485,600.
+Fig 9 reveals that the total frequency of customers is 1,487,  total quantity of shirts sold is 12,388 and the total revenue is 485,600.
 
 Approximately 52% of shirt sales was from North Region while approximately 48% was from East region. 
 Shirts sale was recorded at only two months as the higher sale was at the month of January and it thereafter decreased at July.
@@ -310,8 +329,9 @@ Shirts sale was recorded at only two months as the higher sale was at the month 
 
 ![Sales 1 17~2](https://github.com/user-attachments/assets/19703eb7-90fe-4b9a-a4b9-d3da14c0a057)
 
+*fig 10: Hat Sales Analysis*
 
-Fig 12 reveals that the total frequency of customers is 1,991,  total quantity of hat sold is 15,929 and the total revenue is 316,195.
+Fig 10 reveals that the total frequency of customers is 1,991,  total quantity of hat sold is 15,929 and the total revenue is 316,195.
 
 Approximately 56% of hat sales was from East Region, approximately 22% was from West region and approximately 22% was from North region. 
 
@@ -323,8 +343,9 @@ Hats sale was recorded at only three months as the highest sale was recorded at 
 
 ![Sales 1 18~2](https://github.com/user-attachments/assets/d90c1330-a191-450e-95f4-632a64975ee5)
 
+*fig 11: Shoes Sales Analysis*
 
-Fig 13 reveals that the total frequency of customers is 1,987,  total quantity of shoes  sold is 14,402 and the total revenue is 613,380.
+Fig 11 reveals that the total frequency of customers is 1,987,  total quantity of shoes  sold is 14,402 and the total revenue is 613,380.
 
 Approximately 69% of shoes sales was from South Region, approximately 17% was from East region and approximately 14% was from West region. 
 
@@ -336,8 +357,9 @@ Shoes sale was recorded at only three months as the highest sale was recorded at
 
 ![Sales 1 19~2](https://github.com/user-attachments/assets/f4651acc-a439-4937-8f84-2bd0a98c0099)
 
+*fig 12: Jackets Sales Analysis*
 
-Fig 14 reveals that the total frequency of customers is 1,488,  total quantity of jackets  sold is 5,452 and the total revenue is 208,230.
+Fig 12 reveals that the total frequency of customers is 1,488,  total quantity of jackets  sold is 5,452 and the total revenue is 208,230.
 
 Approximately 54% of jackets sales was from East Region, approximately 17% was from East region and approximately 46% was from North region. 
 Jackets sale was recorded at only two months as the low sale was recorded at the month of May and it thereafter increased at November. 
@@ -348,8 +370,9 @@ Jackets sale was recorded at only two months as the low sale was recorded at the
 
 ![Sales 1 20~2](https://github.com/user-attachments/assets/5f12725e-8d54-4c38-b274-609272c8ccac)
 
+*fig 13: Socks Sales Analysis*
 
-Fig 15 reveals that the total frequency of customers is 1,484,  total quantity of socks  sold is 7,921 and the total revenue is 180,785.
+Fig 13 reveals that the total frequency of customers is 1,484,  total quantity of socks  sold is 7,921 and the total revenue is 180,785.
 
 Approximately 56% of socks sales was from South Region, approximately 17% was from East region and approximately 44% was from West region. 
 
