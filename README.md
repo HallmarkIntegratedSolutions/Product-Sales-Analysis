@@ -1,4 +1,4 @@
-# Sales Performance Analysis for a Retail Store
+![Sales 1 18~2](https://github.com/user-attachments/assets/012196b9-fb7d-4cff-a1ea-c8d4e51a54da)# Sales Performance Analysis for a Retail Store
 
 ## Project Aim
 
@@ -257,4 +257,69 @@ select product from [dbo].[Monthly_Sales_Data ]
 
 There was no product identified with no sales in the last quarter.
 
+
+------------
+
+
 ## Data Visualization with the use of MS POWER BI
+
+![Sales 1 14~2](https://github.com/user-attachments/assets/436f1322-4804-46ff-8de0-b05f648ad824)
+
+Fig 9 reveal that the total frequency of customers is 9,921,  total quantity sold is 68,461 and the total revenue is 2,101,090.
+
+As seen in the line chart in fig.9, the higher total sales was observed at the month of February while the least sales was recorded at December.
+
+-------------
+
+Product was used as slicer for the visual report.
+-----
+
+- For Gloves,
+
+![Sales 1 15~2](https://github.com/user-attachments/assets/8bd6c2dc-b647-4ab7-a262-90f2edcc176f)
+
+
+
+Fig 10 reveals that the total frequency of customers is 1,484,  total quantity of gloves  sold is 12,369 and the total revenue is 296,900.
+
+Approximately 80% of gloves sales was from South Region while approximately 20% was from West region.
+Gloves sale was recorded at only two months with a decrease as the higher sale was at the month of June and it thereafter decreased at December.
+
+---------
+
+- For Shirt,
+
+![Sales 1 16~2](https://github.com/user-attachments/assets/56955187-8890-4876-9d68-85dacda356be)
+
+
+Fig 11 reveals that the total frequency of customers is 1,487,  total quantity of shirts sold is 12,388 and the total revenue is 485,600.
+
+Approximately 52% of shirt sales was from North Region while approximately 48% was from East region. 
+Shirts sale was recorded at only two months as the higher sale was at the month of January and it thereafter decreased at July.
+
+-----------
+
+- For Hat,
+
+![Sales 1 17~2](https://github.com/user-attachments/assets/19703eb7-90fe-4b9a-a4b9-d3da14c0a057)
+
+
+Fig 12 reveals that the total frequency of customers is 1,991,  total quantity of hat sold is 15,929 and the total revenue is 316,195.
+
+Approximately 56% of hat sales was from East Region, approximately 22% was from West region and approximately 22% was from North region. 
+
+Hats sale was recorded at only three months as the highest sale was recorded at the month of March and it thereafter decreased at August to September. 
+
+---------
+
+- For Shoes,
+
+![Sales 1 18~2](https://github.com/user-attachments/assets/d90c1330-a191-450e-95f4-632a64975ee5)
+
+
+Fig 13 reveals that the total frequency of customers is 1,987,  total quantity of shoes  sold is 14,402 and the total revenue is 613,380.
+
+Approximately 69% of shoes sales was from South Region, approximately 17% was from East region and approximately 14% was from West region. 
+
+
+Shoes sale was recorded at only three months as the highest sale was recorded at the month of February and it thereafter decreased at July to August. 
