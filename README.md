@@ -8,7 +8,7 @@
 
 [Data Analysis with MS EXCEL](#Data-Analysis-with-MS-EXCEL)
 
-[Data Analysis with SQL](#Data-Analyis-with-SQL)
+[Data Analysis with MS SQL](#Data-Analyis-with-MS-SQL)
 
 [Data Visualization with POWER BI](#Data-Visualization-with-POWER-BI)
 
@@ -149,8 +149,7 @@ This implies that the business is functioning well at South region than any othe
 
 ------------
 
-## Data Analysis with SQL
-
+## Data Analysis with MS SQL
 
 - To calculate the total sales for each product category
 
