@@ -151,12 +151,15 @@ This implies that the business is functioning well at South region than any othe
 
 ## Data Analysis with SQL
 
+
 - To calculate the total sales for each product category
+
 ```SQL
 select product, sum(Quantity) as 'Total_Sales' from [dbo].[SalesData]
 		group by product
 		order by 2 desc
 ```
+
 The result is displayed as below
 
 ![Sales 1 6~3](https://github.com/user-attachments/assets/bab80ce9-cfc0-43de-bac2-18379cf7c094)
