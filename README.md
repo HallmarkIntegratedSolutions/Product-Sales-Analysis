@@ -43,6 +43,7 @@ The management of the company might take a survey to get interested jackets bran
 #### Summarization of total sales and total revenue per product at a glance
 This was done with the use of Microsoft EXCEL and the result is displayed below.
 
+![Sales 1 3~2](https://github.com/user-attachments/assets/b4d6cd1d-ea44-4e7a-8d29-0409e974f7c4)
 
 
 Though hat has the highest sales (15,929), it is not the product with the highest revenue. 
@@ -54,6 +55,7 @@ The product with the highest revenue (613,380) is shoe which has the second larg
 This was done with the use of Microsoft EXCEL and the result is displayed below.
 
 
+![Screenshot (83)~2](https://github.com/user-attachments/assets/d25e019b-9453-4769-9928-0e73e42ea6db)
 
 
 - At South region, hat and jacket were not available for sale.
@@ -92,6 +94,7 @@ The function codes are displayed below:
 
 The results are displayed in the table below
 
+![Sales 1 4~2](https://github.com/user-attachments/assets/8cfd1db4-c5b8-4670-afa0-719ea4e88074)
 
 Gloves, hat and shirt had the highest average sales (8) while jacket had the lowest average sales (4). 
 
@@ -112,6 +115,9 @@ We used EXCEL Functions to calculate total revenue per region and the function l
 
 The results are displayed in the table below
 
+![Sales 1 5~2](https://github.com/user-attachments/assets/76eea254-15ec-4ad1-86ba-08410fecd3dd)
+
+
 The highest revenue recorded from this sale analysis is from South Region with #927,820 while the lowest revenue was seen at West region with 300,345.
 This implies that the business is functioning well at South region than any other region and it is recommended that  the management of the sales firm focus on what to do as to increase sales in other regions too.
 
@@ -127,6 +133,7 @@ select product, sum(Quantity) as 'Total_Sales' from [dbo].[SalesData]
 ```
 The result is displayed as below
 
+![Sales 1 6~3](https://github.com/user-attachments/assets/bab80ce9-cfc0-43de-bac2-18379cf7c094)
 
 
 As further confirmed using SQL Package, the product with the highest sales is hat. 
@@ -142,6 +149,7 @@ select region, count(Quantity) as 'Sales_Transaction_Number' from [dbo].[SalesDa
 ```
 
 The result is displayed as below:
+![Sales 1 7~2](https://github.com/user-attachments/assets/ae9aaa27-b0bb-41f1-b205-ecb99cd4b521)
 
 
 
@@ -155,6 +163,7 @@ All the regions have almost equal frequency of sales transaction though the high
 select top 1 product, sum(Quantity) as 'QuantityTotal' from [dbo].[SalesData]
 		group by product
 ```
+![Sales 1 8~2](https://github.com/user-attachments/assets/6cdebffd-8a68-4a00-8d22-5298564c7ab7)
 
 
 The highest selling product by total sales value is hat with 15929 total sales. 
@@ -169,6 +178,7 @@ select product, sum(Revenue) as 'Total_Revenue' from [dbo].[SalesData]
 		order by 2 desc
 ```
 
+![Sales 1 9~2](https://github.com/user-attachments/assets/9ff93864-c5f1-4e5a-9495-c271d06d5c06)
 
 The product with the highest revenue (613,380) is shoe while the product with the lowest revenue is socks with #180,785. (See fig 9, the visual dashboard) 
 
@@ -183,6 +193,7 @@ select OrderMonth, sum(Quantity) as MonthlySales from [dbo].[Monthly_Sales_Data 
 	where Orderyear = 2024
 	group by OrderMonth
 ```
+![Sales 1 10~2](https://github.com/user-attachments/assets/932769a0-8e32-432e-bd23-772f233eb3d5)
 
 
 - At year 2024, there was an increase in sales from the month of January to March but a sharp decrease in sales occured between April and May. 
@@ -199,8 +210,8 @@ select top 5 Customer_Id, sum(Revenue) as 'Total_Purchase_Amount' from [dbo].[Sa
 		order by 2 desc
 ```
 
+![Sales 1 11~2](https://github.com/user-attachments/assets/359d453f-0904-43cb-b50c-0c423388fe28)
 
-add screen 1.11
 
 The customers with the highest total purchase amount are Cus1372, Cus1385, Cus1395, Cus1207 and Cus1075 all with equal amount of total purchase of 4,235.
 
@@ -220,7 +231,8 @@ select region
 	WITH ROLLUP;
 ```
 
-Add screen 1.12
+![Sales 1 12~2](https://github.com/user-attachments/assets/f01bab18-33bd-4a5c-bad9-57e79427b608)
+
 
 The highest percentage (35.49%) of the total sales came from South region while the lowest percentage (16.65%) of total sales was observed from the West region. ( See fig 9, the visual dashboard). 
 
@@ -232,8 +244,8 @@ select product from [dbo].[Monthly_Sales_Data ]
 	where OrderMonth in ('July','August','September') and Quantity = '0'
 	group by product
 ```
+![Sales 1 13~2](https://github.com/user-attachments/assets/77465c0d-c52b-4bd8-9019-17e3424d7e0f)
 
-add screen 1.13
 There was no product identified with no sales in the last quarter.
 
 ## Data Visualization with the use of MS POWER BI
