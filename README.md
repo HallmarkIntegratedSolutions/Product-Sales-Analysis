@@ -15,7 +15,7 @@ The aim of this analysis is to  analyse the sales performance of a retail store 
 
 ## Data Summarization with MICROSOFT EXCEL
 
-#### Summarization of total sales per region
+- Summarization of total sales per region
 This was done with the use of Microsoft EXCEL and the result is displayed below
 
 ![Sales 1 1~2](https://github.com/user-attachments/assets/07b1077e-a95e-483e-b26f-78ca02af060e)
@@ -26,7 +26,7 @@ We recommend that the company look keenly into the West region and make some adj
 
 -----------
 
-#### Summarization of total sales per product
+- Summarization of total sales per product
 This was done with the use of Microsoft EXCEL and the result is displayed below
 
 ![Screenshot (84)~2](https://github.com/user-attachments/assets/22d31aa0-13aa-4b46-97dd-93940da058c9)
@@ -40,7 +40,7 @@ The management of the company might take a survey to get interested jackets bran
 
 --------------
 
-#### Summarization of total sales and total revenue per product at a glance
+- Summarization of total sales and total revenue per product at a glance
 This was done with the use of Microsoft EXCEL and the result is displayed below.
 
 ![Sales 1 3~2](https://github.com/user-attachments/assets/b4d6cd1d-ea44-4e7a-8d29-0409e974f7c4)
@@ -51,7 +51,7 @@ The product with the highest revenue (613,380) is shoe which has the second larg
 
 --------
 
-#### Summarization of total sales per region per product at a glance
+- Summarization of total sales per region per product at a glance
 This was done with the use of Microsoft EXCEL and the result is displayed below.
 
 
@@ -73,9 +73,9 @@ It is interesting to note that the product with the highest sales in one region 
 -------
 
 ### Data Analysis with MS EXCEL
-#### Using EXCEL Functions to calculate Average sales per product
+- Using EXCEL Functions to calculate Average sales per product
 
-We used EXCEL Function (AVERAGEIF) to calculate the average sales per product.
+EXCEL Function (AVERAGEIF) was used to calculate the average sales per product.
 The function codes are displayed below:
 
 ```MICROSOFT EXCEL
@@ -100,13 +100,14 @@ Gloves, hat and shirt had the highest average sales (8) while jacket had the low
 
 -------
 
-#### Using EXCEL Functions to calculate total revenue per region
-We used EXCEL Functions to calculate total revenue per region and the function lines of code are displayed below:
+- Using EXCEL Functions to calculate total revenue per region
+EXCEL Function was used to calculate total revenue per region and the function lines of code are displayed below:
 
 ```MICROSOFT EXCEL
-= SUMIF($D$2:$D$9922,"East",$H$2:$H$9922)
+=SUMIF($D$2:$D$9922,"East",$H$2:$H$9922)
 
-= SUMIF($D$2:$D$9922,"North",$H$2:$H$9922)
+=
+SUMIF($D$2:$D$9922,"North",$H$2:$H$9922)
 
 =SUMIF($D$2:$D$9922,"South",$H$2:$H$9922)
 
@@ -148,7 +149,8 @@ select region, count(Quantity) as 'Sales_Transaction_Number' from [dbo].[SalesDa
 		order by 2 desc
 ```
 
-The result is displayed as below:
+The result is displayed as below
+
 ![Sales 1 7~2](https://github.com/user-attachments/assets/ae9aaa27-b0bb-41f1-b205-ecb99cd4b521)
 
 
@@ -163,6 +165,7 @@ All the regions have almost equal frequency of sales transaction though the high
 select top 1 product, sum(Quantity) as 'QuantityTotal' from [dbo].[SalesData]
 		group by product
 ```
+
 ![Sales 1 8~2](https://github.com/user-attachments/assets/6cdebffd-8a68-4a00-8d22-5298564c7ab7)
 
 
@@ -186,13 +189,14 @@ The product with the highest revenue (613,380) is shoe while the product with th
 
 
 - To calculate monthly sales for the current year
-Firstly, we extract month and year from the order date separately to give us a new dataset 
+Firstly, extract month and year from the order date separately to give us a new dataset 
 
 ```SQL
 select OrderMonth, sum(Quantity) as MonthlySales from [dbo].[Monthly_Sales_Data ]
 	where Orderyear = 2024
 	group by OrderMonth
 ```
+
 ![Sales 1 10~2](https://github.com/user-attachments/assets/932769a0-8e32-432e-bd23-772f233eb3d5)
 
 
@@ -220,6 +224,7 @@ The customers with the highest total purchase amount are Cus1372, Cus1385, Cus13
 
 - To calculate the percentage of total sales contributed by each region
 select region
+
 ```SQL
 	sum(Quantity) as Total_Sales,
 	ROUND(
@@ -239,11 +244,13 @@ The highest percentage (35.49%) of the total sales came from South region while 
 -------------
 
 - To identify products with no sales in the last quarter
+- 
 ```SQL
 select product from [dbo].[Monthly_Sales_Data ]
 	where OrderMonth in ('July','August','September') and Quantity = '0'
 	group by product
 ```
+
 ![Sales 1 13~2](https://github.com/user-attachments/assets/77465c0d-c52b-4bd8-9019-17e3424d7e0f)
 
 There was no product identified with no sales in the last quarter.
