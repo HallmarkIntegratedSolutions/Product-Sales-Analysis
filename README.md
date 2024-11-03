@@ -1,4 +1,4 @@
-![Sales 1 18~2](https://github.com/user-attachments/assets/012196b9-fb7d-4cff-a1ea-c8d4e51a54da)# Sales Performance Analysis for a Retail Store
+# Sales Performance Analysis for a Retail Store
 
 ## Project Aim
 
@@ -16,7 +16,6 @@ The aim of this analysis is to  analyse the sales performance of a retail store 
 ## Data Summarization with MICROSOFT EXCEL
 
 #### Summarization of total sales per region
-
 This was done with the use of Microsoft EXCEL and the result is displayed below
 
 ![Sales 1 1~2](https://github.com/user-attachments/assets/07b1077e-a95e-483e-b26f-78ca02af060e)
@@ -28,7 +27,6 @@ The recommendation is that the company look keenly into the West region and make
 -----------
 
 #### Summarization of total sales per product
-
 This was done with the use of Microsoft EXCEL and the result is displayed below
 
 ![Screenshot (84)~2](https://github.com/user-attachments/assets/22d31aa0-13aa-4b46-97dd-93940da058c9)
@@ -42,7 +40,7 @@ The management of the company might take a survey to get interested jackets bran
 
 --------------
 
-- Summarization of total sales and total revenue per product at a glance
+#### Summarization of total sales and total revenue per product at a glance
 This was done with the use of Microsoft EXCEL and the result is displayed below.
 
 ![Sales 1 3~2](https://github.com/user-attachments/assets/b4d6cd1d-ea44-4e7a-8d29-0409e974f7c4)
@@ -53,7 +51,7 @@ The product with the highest revenue (613,380) is shoe which has the second larg
 
 --------
 
-- Summarization of total sales per region per product at a glance
+#### Summarization of total sales per region per product at a glance
 This was done with the use of Microsoft EXCEL and the result is displayed below.
 
 
@@ -74,8 +72,9 @@ It is interesting to note that the product with the highest sales in one region 
 
 -------
 
-### Data Analysis with MS EXCEL
-- Using EXCEL Functions to calculate Average sales per product
+## Data Analysis with MS EXCEL
+
+#### Using EXCEL Functions to calculate Average sales per product
 
 EXCEL Function (AVERAGEIF) was used to calculate the average sales per product.
 The function codes are displayed below:
@@ -102,14 +101,13 @@ Gloves, hat and shirt had the highest average sales (8) while jacket had the low
 
 -------
 
-- Using EXCEL Functions to calculate total revenue per region
+#### Using EXCEL Functions to calculate total revenue per region
 EXCEL Function was used to calculate total revenue per region and the function lines of code are displayed below:
 
 ```MICROSOFT EXCEL
 =SUMIF($D$2:$D$9922,"East",$H$2:$H$9922)
 
-=
-SUMIF($D$2:$D$9922,"North",$H$2:$H$9922)
+=SUMIF($D$2:$D$9922,"North",$H$2:$H$9922)
 
 =SUMIF($D$2:$D$9922,"South",$H$2:$H$9922)
 
@@ -126,7 +124,7 @@ This implies that the business is functioning well at South region than any othe
 
 ------------
 
-### Using Microsoft SQL for data analysis
+## Using Microsoft SQL for data analysis
 
 - To calculate the total sales for each product category
 ```SQL
@@ -246,7 +244,7 @@ The highest percentage (35.49%) of the total sales came from South region while 
 -------------
 
 - To identify products with no sales in the last quarter
-- 
+
 ```SQL
 select product from [dbo].[Monthly_Sales_Data ]
 	where OrderMonth in ('July','August','September') and Quantity = '0'
@@ -321,5 +319,38 @@ Fig 13 reveals that the total frequency of customers is 1,987,  total quantity o
 
 Approximately 69% of shoes sales was from South Region, approximately 17% was from East region and approximately 14% was from West region. 
 
-
 Shoes sale was recorded at only three months as the highest sale was recorded at the month of February and it thereafter decreased at July to August. 
+
+----------
+
+- For Jackets,
+
+![Sales 1 19~2](https://github.com/user-attachments/assets/f4651acc-a439-4937-8f84-2bd0a98c0099)
+
+
+Fig 14 reveals that the total frequency of customers is 1,488,  total quantity of jackets  sold is 5,452 and the total revenue is 208,230.
+
+Approximately 54% of jackets sales was from East Region, approximately 17% was from East region and approximately 46% was from North region. 
+Jackets sale was recorded at only two months as the low sale was recorded at the month of May and it thereafter increased at November. 
+
+------------
+
+- For Socks,
+
+![Sales 1 20~2](https://github.com/user-attachments/assets/5f12725e-8d54-4c38-b274-609272c8ccac)
+
+
+Fig 15 reveals that the total frequency of customers is 1,484,  total quantity of socks  sold is 7,921 and the total revenue is 180,785.
+
+Approximately 56% of socks sales was from South Region, approximately 17% was from East region and approximately 44% was from West region. 
+
+Socks sale was recorded at only two months as the low sale was recorded at the month of April and it thereafter increased at October. 
+
+
+## Conclusion
+The sales performance of the retail store store has been analysed thoroughly and necessary actions can be done based on the findings in this report so as to boost sales in the retail store. 
+
+--------------
+
+
+
