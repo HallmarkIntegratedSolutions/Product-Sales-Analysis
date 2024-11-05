@@ -23,7 +23,7 @@ The aim of this analysis is to  analyse the sales performance of a retail store 
 -----------
 
 ## Tools Used
-1. Microsoft EXCEL for Data Cleaning and Data Summarization
+1. Microsoft EXCEL for Data Cleaning, Data Summarization and Data Analysis
 2. SQL for Data Analysis
 3. Power BI for Data Cleaning, Data Transformation and Data Visualization
 4. GitHub for Report Documentation
